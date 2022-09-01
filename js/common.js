@@ -4,13 +4,13 @@ $(function(){
     $('.hd_inner .toggle').click(function(){
         $('.toggle i').css("opacity", "0")
         $('.toggle_menu').fadeToggle()
-        $('.logo_img').attr("src", "../IMG/img/logo/logo_color.png")
+        $('.logo_img').attr("src", "./IMG/img/logo/logo_color.png")
         $('.toggle>span').css("color", "#19459d")
     })
 
     $('.tog_hd i').click(function(){
         $('.toggle_menu').fadeToggle()
-        $('.logo_img').attr("src", "../IMG/img/logo/logo_white.png")
+        $('.logo_img').attr("src", "./IMG/img/logo/logo_white.png")
         $('.toggle i').css("opacity", "1")
     })
 })
